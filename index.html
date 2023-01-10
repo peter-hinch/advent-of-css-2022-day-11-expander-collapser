@@ -11,8 +11,8 @@
   <body>
     <main>
       <section id="q-and-a">
-        <div class="q-and-a__item">
-          <div class="item__question item__expanded">
+        <div class="q-and-a__item q-and-a__expanded">
+          <div class="item__question">
             <div class="question__heading">
               <div class="heading__question-image">
                 <svg class="question-image__layer1">
@@ -38,11 +38,11 @@
                 Technically, Svelte is a library and SvelteKit is a framework.
                 What's the difference?
               </h3>
+              <button
+                class="heading__answer-toggle"
+                aria-label="Collapse"
+              ></button>
             </div>
-            <button
-              class="question__answer-toggle"
-              aria-label="Collapse"
-            ></button>
           </div>
           <div class="item__answer">
             <p>
@@ -58,8 +58,8 @@
             </p>
           </div>
         </div>
-        <div class="q-and-a__item">
-          <div class="item__question item__collapsed">
+        <div class="q-and-a__item q-and-a__collapsed">
+          <div class="item__question">
             <div class="question__heading">
               <div class="heading__question-image">
                 <svg class="question-image__layer1">
@@ -84,11 +84,11 @@
               <h3 class="heading__question-text">
                 Do you provide a certificate of completion?
               </h3>
+              <button
+                class="heading__answer-toggle"
+                aria-label="Expand"
+              ></button>
             </div>
-            <button
-              class="question__answer-toggle"
-              aria-label="Expand"
-            ></button>
           </div>
           <div class="item__answer">
             <p>
