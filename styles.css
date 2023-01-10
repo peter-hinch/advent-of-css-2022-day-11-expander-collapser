@@ -14,3 +14,38 @@ section#q-and-a {
 
 section#q-and-a .q-and-a__item {
 }
+
+.question__heading .heading__question-image {
+  position: relative;
+  width: 102px;
+  height: 112px;
+  background: #000;
+}
+
+.question__heading .heading__question-image svg {
+  position: absolute;
+  top: -40px;
+  left: 16px;
+  width: 70px;
+  height: 130px;
+}
+
+.item__expanded svg.question-image__layer1 {
+  fill: #3d6ea2;
+}
+.item__expanded svg.question-image__layer2 {
+  fill: #f10985;
+}
+.item__expanded svg.question-image__layer3 {
+  fill: #5cdfc9;
+}
+
+.item__collapsed svg.question-image__layer1 {
+  fill: #f10985;
+}
+.item__collapsed svg.question-image__layer2 {
+  fill: #1a1a1a;
+}
+.item__collapsed svg.question-image__layer3 {
+  fill: #ffdd00;
+}
