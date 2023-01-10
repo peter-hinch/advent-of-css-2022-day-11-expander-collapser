@@ -63,6 +63,7 @@ body {
   box-sizing: border-box;
   padding: 81px 85px 36px 71px;
   width: 953px;
+  min-height: 124px;
   z-index: -200;
 }
 
@@ -113,6 +114,6 @@ body {
 
 .q-and-a__collapsed .item__answer p {
   margin: 0;
-  height: 4px;
+  height: 0px;
   overflow-y: hidden;
 }
