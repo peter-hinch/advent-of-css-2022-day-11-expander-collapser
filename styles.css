@@ -9,11 +9,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.q-and-a__item {
-  position: relative;
-  top: -35px;
-}
-
 .item__question {
   display: flex;
   flex-direction: row;
