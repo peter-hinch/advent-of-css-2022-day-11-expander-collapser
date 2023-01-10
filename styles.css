@@ -9,6 +9,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Accounts for the reduction in percieved height from layering effect */
+#q-and-a > div:not(:first-child) {
+  position: relative;
+  top: -35px;
+}
+
 .item__question {
   display: flex;
   flex-direction: row;
